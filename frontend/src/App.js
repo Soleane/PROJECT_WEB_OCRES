@@ -14,7 +14,6 @@ export default function App() {
       <Aside />
       <Titre />
       <Dashboard/>
-
-      </div>
+    </div>
   );
 }
