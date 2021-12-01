@@ -1,22 +1,251 @@
 .App {
+  text-align: left;
+}
+
+.App-image {
+  height: 1vmin;
+  height: 25px;
+  width: auto;
+}
+
+.containerHeader{
+  width: 120px;
+  height: 60px;
+  margin-left: 93%;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  background-color:gray;
+}
+
+.containerCard1{
+  width: 50px;
+  height: 43px;
+  margin-left: 42%;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  background-color:rgb(233, 230, 230);;
+}
+
+.containerCard5{
+  width: 400px;
+  height: 100px;
+  margin-left: 10%;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  background-color:rgb(233, 230, 230);;
+}
+
+.space{
+
+  width: 20px;
+}
+
+
+
+.App-image2 {
+  margin-top: 7%;
+  height: 1vmin;
+  height: 150px;
+  width: auto;
+}
+
+.body {
+  background: white;
+
+}
+
+.App-aside {
+  position: absolute;
+  left: 0.42%;
+  right: 77.43%;
+  top: 13.18%;
+  bottom: 6.45%;
+  position: absolute;
+  background-color: rgb(214, 210, 210);
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.r1{
+  text-align: center;
+  margin-left: -5%;
+  width: 105%;
+  margin-top: 15%;
+  border: 2px solid #acabab;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #09d3ac;
+
+.r2{
+  text-align: center;
+  margin-left: -5%;
+  width: 105%;
+  margin-top: 0%;
+  border: 2px solid #acabab;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.r3{
+  text-align: center;
+  margin-left: -5%;
+  width: 105%;
+  margin-top: 0%;
+  border: 2px solid #acabab;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.r4{
+  text-align: center;
+  margin-left: -5%;
+  width: 105%;
+  margin-top: 0%;
+  border: 2px solid #acabab;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.r5{
+  text-align: center;
+  margin-left: -5%;
+  width: 105%;
+  margin-top: 0%;
+  border: 2px solid #acabab;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+
+.Header{
+  height: 60px;
+  display: flex;
+  background: gray;  
+}
+
+
+.card1{
+  position: absolute;
+left: 24.31%;
+right: 56.67%;
+top: 19.82%;
+bottom: 61.43%;
+border: 2px solid #9c9b9b;
+border-radius: 15px;
+background-color: rgb(233, 230, 230);
+text-align: center;
+
+/* Card Shadows/Card - 16dp - Shadow */
+filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+
+}
+
+.card2{
+  position: absolute;
+left: 46.94%;
+right: 26.67%;
+top: 19.82%;
+bottom: 61.43%;
+border: 2px solid #9c9b9b;
+border-radius: 15px;
+background-color: rgb(233, 230, 230);
+
+
+/* Card Shadows/Card - 16dp - Shadow */
+filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+}
+
+
+.card3{
+  position: absolute;
+left: 76.81%;
+right: 4.17%;
+top: 19.82%;
+bottom: 61.43%;
+border: 2px solid #9c9b9b;
+border-radius: 15px;
+background-color: rgb(233, 230, 230);
+
+
+/* Card Shadows/Card - 16dp - Shadow */
+filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+
+}
+
+
+.card4{
+
+position: absolute;
+left: 24.31%;
+right: 42.92%;
+top: 44.04%;
+bottom: 6.05%;
+border: 2px solid #9c9b9b;
+border-radius: 15px;
+background-color: rgb(233, 230, 230);
+
+
+/* Card Shadows/Card - 16dp - Shadow */
+filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+}
+
+
+.card5{
+  position: absolute;
+left: 60.69%;
+right: 4.17%;
+top: 44.04%;
+bottom: 33.89%;
+border: 2px solid #9c9b9b;
+border-radius: 15px;
+background-color: rgb(233, 230, 230);
+
+
+
+/* Card Shadows/Card - 16dp - Shadow */
+filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+}
+
+.card6{
+  position: absolute;
+left: 60.76%;
+right: 4.17%;
+top: 71.58%;
+bottom: 6.35%;
+border: 2px solid #9c9b9b;
+border-radius: 15px;
+background-color: rgb(233, 230, 230);
+
+
+/* Card Shadows/Card - 16dp - Shadow */
+filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+}
+
+.titre{
+  position: absolute;
+left: 24.42%;
+right: 48.68%;
+top: 11.06%;
+bottom: 81.93%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+color: #000000;
+
 }
