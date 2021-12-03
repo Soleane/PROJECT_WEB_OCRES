@@ -1,6 +1,30 @@
 import React from "react";
+import youtube from './youtube';
+import VideoList from './VideoList';
+import VideoDetail from './VideoDetail';
+
 export default class Dashboard extends React.Component 
 {
+
+    state = {
+        videos: [],
+        selectedVideo: null
+    }
+    handleSubmit = async (termFromSearchBar) => {
+        const response = await youtube.get('/search', {
+            params: {
+                q: termFromSearchBar
+            }
+        })
+
+        this.setState({
+            videos: response.data.items
+        })
+        console.log("this is resp",response);
+    };
+    handleVideoSelect = (video) => {
+        this.setState({selectedVideo: video})
+    }
 
     render()
     {
@@ -12,6 +36,9 @@ export default class Dashboard extends React.Component
                      <p>
                          -  Time / Day :
                      </p>
+                    <div class ="containerCard4">
+                        <VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos}/>
+                    </div>
                 </card4>
                 </div>             
             </div>

@@ -1,8 +1,6 @@
 import React from "react"
 import SearchBar from './Searchbar';
 import youtube from './youtube';
-import VideoList from './VideoList';
-import VideoDetail from './VideoDetail';
 
 export default class Dashboard extends React.Component 
 {
@@ -34,6 +32,7 @@ export default class Dashboard extends React.Component
             <div> 
                 <div className="card5">
                 <card5 className="App-.card5">
+                <h5>- Enter search keyword to load...</h5>
                 <div class ="containerCard5"> 
                     <SearchBar handleFormSubmit={this.handleSubmit}/>
                 </div>

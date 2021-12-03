@@ -30,9 +30,20 @@
 
 .containerCard5{
   width: 400px;
-  height: 90px;
+  height: 70px;
   margin-left: 15%;
-  margin-top: 5%;
+  margin-top: 7%;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  background-color:rgb(233, 230, 230);;
+}
+
+.containerCard4{
+  width: 400px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 7%;
   top: 40px;
   display: flex;
   align-items: center;
