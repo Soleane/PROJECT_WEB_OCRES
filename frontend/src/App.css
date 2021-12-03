@@ -30,9 +30,10 @@
 
 .containerCard5{
   width: 400px;
-  height: 100px;
-  margin-left: 10%;
-  top: 30px;
+  height: 90px;
+  margin-left: 15%;
+  margin-top: 5%;
+  top: 40px;
   display: flex;
   align-items: center;
   background-color:rgb(233, 230, 230);;
