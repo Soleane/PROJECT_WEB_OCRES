@@ -1,7 +1,6 @@
 import React from "react";
 import youtube from './youtube';
 import VideoList from './VideoList';
-import VideoDetail from './VideoDetail';
 
 export default class Dashboard extends React.Component 
 {
