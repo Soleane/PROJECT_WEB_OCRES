@@ -32,7 +32,6 @@ export default class Card4 extends React.Component {
             .then(
                 function(data){
                     console.log(data);
-
                     for(var i in data['Time Series (Daily)']){
                         fonctionValeurEnX.push(i);
                         fonctionValeurEnY.push(data['Time Series (Daily)'][i]['1. open']);
