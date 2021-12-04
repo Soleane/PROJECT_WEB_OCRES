@@ -1,11 +1,10 @@
 import React from 'react';
 import Dashboard from './component/Dashboard';
 import Header from './component/Header';
-
-import './App.css';
 import Aside from './component/Aside';
 import Titre from './component/Titre';
 
+import './App.css';
 
 export default function App() {
   return (

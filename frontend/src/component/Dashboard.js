@@ -8,15 +8,8 @@ import Card6 from './card6.js';
 
 
 
-export default class Dashboard extends React.Component 
-{
-	constructor(props)
-	{
-		super(props);
-	}
-
-    render()
-    {
+export default class Dashboard extends React.Component {
+    render(){
         return(
             <div>
                 <Card1/>
@@ -26,7 +19,6 @@ export default class Dashboard extends React.Component
                 <Card5/>
                 <Card6/>
             </div>
-        );
-
+        )
     }
 }
