@@ -1,6 +1,8 @@
 import React from "react";
 import youtube from './youtube';
 import VideoList from './VideoList';
+import SearchBar from './Searchbar';
+import VideoDetail from "./VideoDetail";
 
 export default class Dashboard extends React.Component 
 {
@@ -35,8 +37,14 @@ export default class Dashboard extends React.Component
                      <p>
                          -  Time / Day :
                      </p>
+
                     <div class ="containerCard4">
+                    <div>
+                            <VideoDetail video={this.state.selectedVideo}/>
+                    </div>
+                    <div>
                         <VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos}/>
+                    </div>    
                     </div>
                 </card4>
                 </div>             
