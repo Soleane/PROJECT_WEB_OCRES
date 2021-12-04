@@ -18,12 +18,12 @@ export default class Card4 extends React.Component {
         const pointerToThis = this;
         const API_KEY = 'UBYQXJP3MAF7COTW';
         let companySymbol = 'IBM';
-        let API_Call ='https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol='+companySymbol+'&outputsize=full&apikey='+API_KEY;
+        let API_URL ='https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol='+companySymbol+'&outputsize=full&apikey='+API_KEY;
         
         let fonctionValeurEnX = [];
         let fonctionValeurEnY = [];
 
-        fetch(API_Call)
+        fetch(API_URL)
             .then(
                 function(response) {
                     return(response.json());

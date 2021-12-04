@@ -11,10 +11,8 @@ const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 const API_URL_ICON = "http://openweathermap.org/img/wn/";
 
 
-export default class Card3 extends React.Component 
-{
-	constructor(props)
-	{
+export default class Card3 extends React.Component {
+	constructor(props){
 	   super(props);
 	   this.state = {
             recherche : "Paris",
@@ -23,9 +21,7 @@ export default class Card3 extends React.Component
         }
     }
    
-
-    getmeteo()
-    {
+    getMeteo() {
         axios.get(`${API_URL}?q=${this.city}&units=metric&appid=${API_KEY}`)
         .then(res => {
             const meteo = res.data;
@@ -33,13 +29,12 @@ export default class Card3 extends React.Component
         })
     }
     componentDidMount() { 
-        this.getmeteo();
+        this.getMeteo();
         this.timerID = setInterval(
             () => this.tick(), 
             1000 
         ); 
     } 
-
     
     componentWillUnmount() { 
         clearInterval(this.timerID); 
