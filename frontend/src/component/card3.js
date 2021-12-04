@@ -11,7 +11,7 @@ const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 const API_URL_ICON = "http://openweathermap.org/img/wn/";
 
 
-export default class Dashboard extends React.Component 
+export default class Card3 extends React.Component 
 {
 	constructor(props)
 	{
@@ -51,17 +51,13 @@ export default class Dashboard extends React.Component
         }); 
     } 
 
-    render()
-    {
+    render()    {
         return(
-
-            <div>
-                <div className="card3">
-                <card3 className="App-.card3">
-                <h2> {this.state.date.toLocaleDateString()} </h2>
-                <h4>{this.state.date.toLocaleTimeString()}. h </h4>
-                </card3>
-            </div>               
+            <div className="card3">
+                <div className="App-.card3">
+                    <h3> {this.state.date.toLocaleDateString()} </h3>
+                    <h3>{this.state.date.toLocaleTimeString()}. h </h3>
+                </div>
             </div>
         )
     }

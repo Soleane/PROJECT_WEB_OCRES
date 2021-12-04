@@ -1,25 +1,17 @@
 import React from "react";
-export default class Dashboard extends React.Component 
-{
 
-    render()
-    {
+export default class Card2 extends React.Component {
+    render(){
         return(
 
             <div>
                 <div className="card2">
-                <card2 className="App-.card2">
-                    <p>
-                        -  Number of view :
-                    </p>
-                    <p>
-                        This week :
-                    </p>
-                </card2>
-            </div>               
+                    <div className="App-.card2">
+                        <h3> -  Number of view : </h3>
+                        <p> This week :</p>
+                    </div>
+                </div>               
             </div>
-        )
-            
+        );
     }
-
 }
