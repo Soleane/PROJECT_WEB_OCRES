@@ -34,10 +34,11 @@ export default class Card6 extends React.Component {
                 <h5>- Enter search keyword to load...</h5>
                 <div class ="containerCard6"> 
                     <SearchBar handleFormSubmit={this.handleSubmit}/>
+                    <div className = "space"></div>
                         <div className="eleven wide column">
                             <VideoDetail video={this.state.selectedVideo}/>
                         </div>
-                        <div className="two wide column">
+                        <div className="four wide column">
                             <VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos}/>
                         </div>
                     </div>

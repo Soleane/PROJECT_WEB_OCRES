@@ -52,14 +52,14 @@
 
 
 .containerCard6{
-  width: 400px;
-  height: 80px;
+  width: 550px;
+  height: 200px;
   margin-left: 5%;
   margin-top: 5%;
   top: 40px;
   display: flex;
   align-items: center;
-  background-color:rgb(182, 51, 51);;
+  background-color:rgb(233, 230, 230);;
 }
 
 .space{
@@ -86,7 +86,7 @@
   left: 0.42%;
   right: 77.43%;
   top: 13.18%;
-  bottom: 6.45%;
+  bottom: -9.45%;
   position: absolute;
   background-color: rgb(214, 210, 210);
   width: 20%;
@@ -163,8 +163,8 @@
   position: absolute;
 left: 24.31%;
 right: 56.67%;
-top: 19.82%;
-bottom: 61.43%;
+top: 21.82%;
+bottom: 55.43%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
@@ -179,8 +179,8 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
   position: absolute;
 left: 46.94%;
 right: 26.67%;
-top: 19.82%;
-bottom: 61.43%;
+top: 21.82%;
+bottom: 55.43%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
@@ -195,8 +195,8 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
   position: absolute;
 left: 76.81%;
 right: 4.17%;
-top: 19.82%;
-bottom: 61.43%;
+top: 23.82%;
+bottom: 57.43%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
@@ -213,41 +213,41 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
 
 position: absolute;
 left: 24.31%;
-right: 42.92%;
-top: 44.04%;
-bottom: 6.05%;
-border: 2px solid #9c9b9b;
-border-radius: 15px;
-background-color: rgb(233, 230, 230);
-
-
-/* Card Shadows/Card - 16dp - Shadow */
-filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
-}
-
-
-.card5{
-  position: absolute;
-left: 60.69%;
 right: 4.17%;
-top: 44.04%;
-bottom: 33.89%;
+top: 50.04%;
+bottom: -9.05%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
 
 
-
 /* Card Shadows/Card - 16dp - Shadow */
 filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
 }
+
 
 .card6{
   position: absolute;
-left: 60.76%;
+left: 1.50%;
+right: 52%;
+top: 115.04%;
+bottom: -60%;
+border: 2px solid #9c9b9b;
+border-radius: 15px;
+background-color: rgb(233, 230, 230);
+
+
+
+/* Card Shadows/Card - 16dp - Shadow */
+filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 32px rgba(50, 50, 71, 0.08));
+}
+
+.card5{
+  position: absolute;
+left: 52%;
 right: 4.17%;
-top: 71.58%;
-bottom: 6.35%;
+top: 115.04%;
+bottom: -60%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);

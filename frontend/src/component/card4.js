@@ -63,7 +63,7 @@ export default class Card4 extends React.Component {
                                     marker: {color : 'red'} 
                                 }
                             ]}
-                            layout = {{width: 420, height: 250, title: "Evolution des actions d'IBM"}}
+                            layout = {{width: 900, height: 300, title: "Evolution des actions d'IBM"}}
                         />
                         </div>
                     </div>
