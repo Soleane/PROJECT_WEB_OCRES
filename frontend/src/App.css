@@ -41,13 +41,25 @@
 
 .containerCard4{
   width: 400px;
-  height: 250px;
+  height: 265px;
   margin-left: 4%;
   margin-top: 5%;
   top: 40px;
   display: flex;
   align-items: center;
   background-color:rgb(233, 230, 230);;
+}
+
+
+.containerCard6{
+  width: 400px;
+  height: 80px;
+  margin-left: 5%;
+  margin-top: 5%;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  background-color:rgb(182, 51, 51);;
 }
 
 .space{
@@ -248,7 +260,7 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
 .titre{
   position: absolute;
 left: 24.42%;
-right: 48.68%;
+right: 20.68%;
 top: 11.06%;
 bottom: 81.93%;
 
