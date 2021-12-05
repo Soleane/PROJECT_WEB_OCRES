@@ -52,6 +52,7 @@ export default class Card4 extends React.Component {
                 <div className="card4">
                     <div className="App-.card4">
                         <h3> -  Time / Day : </h3>
+                        <div class ="containerCard4"> 
                         <Plot
                             data = {[
                                 {
@@ -62,8 +63,9 @@ export default class Card4 extends React.Component {
                                     marker: {color : 'red'} 
                                 }
                             ]}
-                            layout = {{width: 720, height: 440, title: "Evolution des actions d'IBM"}}
+                            layout = {{width: 420, height: 250, title: "Evolution des actions d'IBM"}}
                         />
+                        </div>
                     </div>
                 </div>             
             </div>
