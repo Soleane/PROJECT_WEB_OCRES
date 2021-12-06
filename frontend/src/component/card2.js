@@ -45,13 +45,13 @@ export default class Card2 extends React.Component {
         return(
             <div className="card2">
                 <div className="App-.card2">
-                    <h4> Météo du jour </h4>
+                    <h4> Weather Report </h4>
                     <div className ="containerCard2">
-                    <h5>Temps : {this.state.main}</h5>
+                    <h5> Weather : {this.state.main}</h5>
                     <h5>Description : {this.state.description} </h5>
                     </div>
                     <div className ="containerCard2b">
-                    <h5>Température : {this.state.temp}°C </h5>
+                    <h5>Temperature : {this.state.temp}°C </h5>
                     <div className = "space"></div>
                     <div className = "space"></div>
                     <img src={icono} class="weather-icon" alt='logo temps'></img>

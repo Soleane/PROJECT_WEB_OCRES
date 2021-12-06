@@ -51,7 +51,7 @@ export default class Card4 extends React.Component {
             <div>
                 <div className="card4">
                     <div className="App-.card4">
-                        <h3>   Graphe :   </h3>
+                        <h3>   Graph :   </h3>
                         <div className ="containerCard4"> 
                         <Plot
                             data = {[
@@ -60,10 +60,10 @@ export default class Card4 extends React.Component {
                                     y: this.state.valeurEnY,
                                     type: 'scatter',
                                     mode: 'lines+markers',
-                                    marker: {color : 'red'} 
+                                    marker: {color : 'green'} 
                                 }
                             ]}
-                            layout = {{width: 910, height: 300, title: "Evolution des actions de Microsoft"}}
+                            layout = {{width: 910, height: 300, title: "Microsoft's Stocks Evolution"}}
 
                         />
                         </div>

@@ -29,7 +29,7 @@ export default class Card3 extends React.Component {
         return(
             <div className="card3">
                 <div className="App-.card3">
-                    <h4> Date et heure </h4>
+                    <h4> Date and time </h4>
                     <div className ="containerCard3">
                         <h3> {this.state.date.toLocaleDateString()} </h3>
                         <h3> {this.state.date.toLocaleTimeString()} </h3>
