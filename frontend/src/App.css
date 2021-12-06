@@ -30,10 +30,11 @@
 }
 
 .containerCard3{
+  text-align: center;
   width: 250px;
   height: 60px;
   margin-left: 3%;
-  margin-top: 20%;
+  margin-top: 5%;
   top: 40px;
   align-items: center;
   background-color:rgb(233, 230, 230);;
@@ -243,7 +244,6 @@ bottom: 47.43%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
-text-align: center;
 
 
 /* Card Shadows/Card - 16dp - Shadow */
