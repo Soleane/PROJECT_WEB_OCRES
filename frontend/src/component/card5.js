@@ -54,7 +54,9 @@ export default class Card5 extends React.Component {
                         <h4>Nom: {this.state.nom} </h4>
                         <p>ID: {this.state.id} </p>
                     </div>
+                    <div className ="containerCard5b">
                     <p>Description: {this.state.description} </p>
+                    </div>
                 </div>
             </div>            
         );
