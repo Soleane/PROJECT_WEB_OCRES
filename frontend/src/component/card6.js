@@ -24,7 +24,7 @@ class SearchBar extends React.Component {
                 <h2  style={{textAlign:"center"}}>
                     <img style={{width:'70px', height:'50px',justifyContent:'center'}} src='assets/youtube.png' alt="youtube logo"></img>
                 </h2>
-                <div class = "space"></div>
+                <div className = "space"></div>
                 <div className='search-bar ui segment'>
                     <form onSubmit={this.handleSubmit} className='ui form'>
                         <div className='field'>
@@ -116,7 +116,7 @@ export default class Card6 extends React.Component {
                 <div className="card6">
                 <div className="App-.card6">
                 <h5>- Enter search keyword to load...</h5>
-                <div class ="containerCard6"> 
+                <div className ="containerCard6"> 
                     <SearchBar handleFormSubmit={this.handleSubmit}/>
                     <div className = "space"></div>
                         <div className="eleven wide column">

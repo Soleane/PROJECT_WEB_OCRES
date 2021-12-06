@@ -18,7 +18,7 @@ export default class Card4 extends React.Component {
         const pointerToThis = this;
         const API_KEY = 'UBYQXJP3MAF7COTW';
         let companySymbol = 'IBM';
-        let API_URL ='https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol='+companySymbol+'&outputsize=full&apikey='+API_KEY;
+        let API_URL =`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${companySymbol}&outputsize=full&apikey=${API_KEY}`;
         
         let fonctionValeurEnX = [];
         let fonctionValeurEnY = [];
@@ -52,7 +52,7 @@ export default class Card4 extends React.Component {
                 <div className="card4">
                     <div className="App-.card4">
                         <h3> -  Time / Day : </h3>
-                        <div class ="containerCard4"> 
+                        <div className ="containerCard4"> 
                         <Plot
                             data = {[
                                 {
@@ -64,6 +64,7 @@ export default class Card4 extends React.Component {
                                 }
                             ]}
                             layout = {{width: 910, height: 300, title: "Evolution des actions d'IBM"}}
+
                         />
                         </div>
                     </div>
