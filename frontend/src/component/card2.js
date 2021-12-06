@@ -45,7 +45,7 @@ export default class Card2 extends React.Component {
         return(
             <div className="card2">
                 <div className="App-.card2">
-                    <h4> - Météo du jour </h4>
+                    <h4> Météo du jour </h4>
                     <div className ="containerCard2">
                     <h5>Temps : {this.state.main}</h5>
                     <h5>Description : {this.state.description} </h5>

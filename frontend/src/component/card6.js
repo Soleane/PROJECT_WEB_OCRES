@@ -115,7 +115,7 @@ export default class Card6 extends React.Component {
             <div>
                 <div className="card6">
                 <div className="App-.card6">
-                <h5>- Enter search keyword to load...</h5>
+                <h4> Enter search keyword to load...</h4>
                 <div className ="containerCard6"> 
                     <SearchBar handleFormSubmit={this.handleSubmit}/>
                     <div className = "space"></div>

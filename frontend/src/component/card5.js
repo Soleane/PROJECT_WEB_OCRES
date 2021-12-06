@@ -44,6 +44,7 @@ export default class Card5 extends React.Component {
             )
     }
 
+
     render() {
         return(
             <div className="card5">
@@ -52,8 +53,8 @@ export default class Card5 extends React.Component {
                     <div className ="containerCard5">
                         <h4>Nom: {this.state.nom} </h4>
                         <p>ID: {this.state.id} </p>
-                        <p>Description: {this.state.description} </p>
                     </div>
+                    <p>Description: {this.state.description} </p>
                 </div>
             </div>            
         );

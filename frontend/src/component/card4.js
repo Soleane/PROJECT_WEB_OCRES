@@ -17,7 +17,7 @@ export default class Card4 extends React.Component {
     fetchStock(){
         const pointerToThis = this;
         const API_KEY = 'UBYQXJP3MAF7COTW';
-        let companySymbol = 'IBM';
+        let companySymbol = 'MSFT';
         let API_URL =`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${companySymbol}&outputsize=full&apikey=${API_KEY}`;
         
         let fonctionValeurEnX = [];
@@ -63,7 +63,7 @@ export default class Card4 extends React.Component {
                                     marker: {color : 'red'} 
                                 }
                             ]}
-                            layout = {{width: 910, height: 300, title: "Evolution des actions d'IBM"}}
+                            layout = {{width: 910, height: 300, title: "Evolution des actions de Microsoft"}}
 
                         />
                         </div>
