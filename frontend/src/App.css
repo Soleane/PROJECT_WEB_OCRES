@@ -22,8 +22,19 @@
   width: 50px;
   height: 43px;
   margin-left: 42%;
+  margin-top: 5%;
   top: 30px;
   display: flex;
+  align-items: center;
+  background-color:rgb(233, 230, 230);;
+}
+
+.containerCard3{
+  width: 250px;
+  height: 60px;
+  margin-left: 3%;
+  margin-top: 20%;
+  top: 40px;
   align-items: center;
   background-color:rgb(233, 230, 230);;
 }
@@ -32,7 +43,7 @@
   width: 400px;
   height: 70px;
   margin-left: 15%;
-  margin-top: 7%;
+  margin-top: 15%;
   top: 40px;
   display: flex;
   align-items: center;
@@ -56,6 +67,29 @@
   height: 200px;
   margin-left: 5%;
   margin-top: 5%;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  background-color:rgb(233, 230, 230);;
+}
+
+.containerCard2{
+  width: 320px;
+  height: 60px;
+  margin-left: 5%;
+  margin-top: 1%;
+  top: 40px;
+  
+  align-items: center;
+  background-color:rgb(233, 230, 230);;
+}
+
+
+.containerCard2b{
+  width: 320px;
+  height: 60px;
+  margin-left: 5%;
+  margin-top: 3%;
   top: 40px;
   display: flex;
   align-items: center;
@@ -86,7 +120,7 @@
   left: 0.42%;
   right: 77.43%;
   top: 13.18%;
-  bottom: -9.45%;
+  bottom: -19.45%;
   position: absolute;
   background-color: rgb(214, 210, 210);
   width: 20%;
@@ -164,7 +198,7 @@
 left: 24.31%;
 right: 56.67%;
 top: 21.82%;
-bottom: 55.43%;
+bottom: 45.43%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
@@ -180,7 +214,7 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
 left: 46.94%;
 right: 26.67%;
 top: 21.82%;
-bottom: 55.43%;
+bottom: 45.43%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
@@ -196,7 +230,7 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
 left: 76.81%;
 right: 4.17%;
 top: 23.82%;
-bottom: 57.43%;
+bottom: 47.43%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
@@ -214,8 +248,8 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
 position: absolute;
 left: 24.31%;
 right: 4.17%;
-top: 50.04%;
-bottom: -9.05%;
+top: 60.04%;
+bottom: -19.05%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
@@ -230,8 +264,8 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
   position: absolute;
 left: 1.50%;
 right: 52%;
-top: 115.04%;
-bottom: -60%;
+top: 125.04%;
+bottom: -70%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
@@ -246,8 +280,8 @@ filter: drop-shadow(0px 16px 16px rgba(50, 50, 71, 0.08)) drop-shadow(0px 24px 3
   position: absolute;
 left: 52%;
 right: 4.17%;
-top: 115.04%;
-bottom: -60%;
+top: 125.04%;
+bottom: -70%;
 border: 2px solid #9c9b9b;
 border-radius: 15px;
 background-color: rgb(233, 230, 230);
