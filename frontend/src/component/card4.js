@@ -51,7 +51,7 @@ export default class Card4 extends React.Component {
             <div>
                 <div className="card4">
                     <div className="App-.card4">
-                        <h3> -  Time / Day : </h3>
+                        <h3>   Graphe :   </h3>
                         <div className ="containerCard4"> 
                         <Plot
                             data = {[
