@@ -9,7 +9,7 @@ export default class Dashboard extends React.Component
         return(
             <div className="card5">
                 <card5 className="App-.card5">
-                <h5>- Enter search keyword to load...</h5>
+                
                 <div class ="containerCard5"> 
                 </div>
                 </card5>
